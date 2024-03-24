@@ -1,0 +1,73 @@
+/*
+    Theme name: PlatziGifts
+    Version: 1.0
+    Description: sitio para catálogo de platzi
+    Author: Diego Diaz
+    Author URI: https://github.com/DiegoDiaz2003
+    License: GNU General Public Licence v2 or later
+    License: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/* Establece la fuente Montserrat para varios elementos */
+a, h1, h2, h3, h4, li, p, span, ul {
+  font-family: Montserrat;
+}
+
+/* Ajustes para imágenes grandes */
+.attachment-large {
+  max-width: 100%;
+  height: auto !important;
+}
+
+/* Estilos específicos para encabezados */
+h1 {
+  margin: 50px 0;
+  font-weight: 900;
+}
+
+/* Estilos para listas */
+ul,
+.lista-productos h2 {
+  margin-bottom: 0;
+  font-weight: 900; /* Aplica el mismo peso a h2 dentro de .lista-productos */
+}
+
+/* Estilos para el header */
+header {
+  background-color: #1c3643;
+}
+
+header nav li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 15px;
+}
+
+header nav li a,
+footer, /* Agrupa las reglas de color de texto blanco */
+footer p {
+  color: #fff;
+}
+
+header nav li a:hover {
+  color: #fff; /* Mantener el color blanco al pasar el ratón */
+}
+
+/* Estilos para el footer */
+footer {
+  background-color: #1c3643;
+  padding: 10px 0;
+  color: #fff; /* Color de texto para todo el footer simplificado */
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Estilos específicos para .lista-productos */
+.lista-productos h4,
+.lista-productos h4 a {
+  font-weight: 400;
+  color: #000; /* Esto asegura que los enlaces dentro de h4 también sean negros */
+}
+
